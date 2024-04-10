@@ -34,7 +34,7 @@ To run the servers for different components, follow these steps:
     ```bash
     venv\Scripts\python search-category\server.py
     venv\Scripts\python search-products\server.py
-    venv\Scripts\python similarity model\server.py
+    venv\Scripts\python similarity-model\server.py
     ```
     These commands start Flask servers for search category, search products, and similarity model.
    
@@ -48,6 +48,10 @@ To run the servers for different components, follow these steps:
    
 
 Make sure all servers are running and accessible.
+
+5. Start All servers:
+   
+   you can simply double-click the run_all_servers.bat file to execute it, or you can run it from the command line by typing run_all_servers.bat and pressing Enter. This will start all servers in separate windows simultaneously.
 
 ## Usage
 
