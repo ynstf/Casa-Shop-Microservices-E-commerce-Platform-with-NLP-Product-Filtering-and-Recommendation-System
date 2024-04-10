@@ -1,0 +1,9 @@
+curl -X POST "http://localhost/predict" -H "Content-Type: application/json" -d "{\"data\": \"0\"}"
+
+uvicorn server:app --host 0.0.0.0 --port 80
+
+['Advanced Running Shoes with Responsive Cushioning for Optimal Performance',
+ 'Professional Running Shoes with Cushioned Insoles for Maximum Comfort',
+ 'Professional Running Shoes with Responsive Cushioning for Optimal Performance']
+
+سلاح للقتل
