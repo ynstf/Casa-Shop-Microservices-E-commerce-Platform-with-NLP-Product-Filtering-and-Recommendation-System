@@ -12,7 +12,11 @@ The project consists of several components, each responsible for a specific func
 - **Search Category**: Flask application for category-based product searching.
 - **Search Products**: Flask application for product searching.
 - **Similarity Model**: Flask application for product similarity analysis.
+      ![casa 1](https://github.com/ynstf/Casa-Shop-Microservices-E-commerce-Platform-with-NLP-Product-Filtering-and-Recommendation-System/assets/107154559/bcbc7128-18a0-45b7-8b6b-c99ae27b8670)
+
 - **Product Classification Policy**: FastAPI application for product classification based on policy compliance.
+      ![casa 2](https://github.com/ynstf/Casa-Shop-Microservices-E-commerce-Platform-with-NLP-Product-Filtering-and-Recommendation-System/assets/107154559/b113cf27-4d61-4ba4-be54-36596e83288d)
+
 
 ## Running the Servers
 
