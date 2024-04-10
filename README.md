@@ -43,7 +43,7 @@ To run the servers for different components, follow these steps:
     These commands start Flask servers for search category, search products, and similarity model.
    
 
-4. Start FastAPI server:
+3. Start FastAPI server:
 
     ```bash
     cd Product-classification-policy && venv\Scripts\uvicorn app:app --host 0.0.0.0 --port 1111
@@ -53,7 +53,7 @@ To run the servers for different components, follow these steps:
 
 Make sure all servers are running and accessible.
 
-5. Start All servers:
+4. Start All servers:
    
    you can simply double-click the run_all_servers.bat file to execute it, or you can run it from the command line by typing run_all_servers.bat and pressing Enter. This will start all servers in separate windows simultaneously.
 
