@@ -1,0 +1,17 @@
+venv\Scripts\python EcommerceAI\manage.py runserver
+
+venv\Scripts\python product\manage.py runserver 5555
+
+venv\Scripts\python django-auth\manage.py runserver 7777
+
+venv\Scripts\python policy\manage.py runserver 9999
+
+venv\Scripts\python search-category\server.py
+
+venv\Scripts\python search-products\server.py
+
+venv\Scripts\python similarity model\server.py
+
+cd Product-classification-policy && venv\Scripts\uvicorn app:app --host 0.0.0.0 --port 1111
+
+

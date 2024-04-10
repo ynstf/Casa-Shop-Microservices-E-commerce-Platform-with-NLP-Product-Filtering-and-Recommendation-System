@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: molla-configmap
+data:
+  POLICY_MODEL_SVC_ADDRESS: "policy_model:1111"
+

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Casa-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Casa-deployment
+  template:
+    metadata:
+      labels:
+        app: Casa-deployment
+    spec:
+      containers:
+        - name: Casa
+          image: yoness/Casa
+          envFrom:
+            - configMapRef:
+                name: Casa-configmap
+          ports:
+            - containerPort: 8000

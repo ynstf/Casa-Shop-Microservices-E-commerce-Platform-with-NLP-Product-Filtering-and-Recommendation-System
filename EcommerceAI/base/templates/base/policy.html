@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+
+<main class="main">
+    <div class="page-header text-center" style="background-image: url( {% static 'assets/images/page-header-bg.jpg' %} )"> <!--url('assets/images/page-header-bg.jpg')-->
+        <div class="container">
+            <h1 class="page-title">POLICY<span>Casa</span></h1>
+        </div><!-- End .container -->
+    </div><!-- End .page-header -->
+    <nav aria-label="breadcrumb" class="breadcrumb-nav mb-3">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{% url 'register' %}">Register</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Our Policy</li>
+            </ol>
+        </div><!-- End .container -->
+    </nav><!-- End .breadcrumb-nav -->
+
+    <div class="page-content">
+        <div class="dashboard">
+            <div class="container">
+
+                <div>
+
+                    <h1>Casa Content Policy</h1>
+                
+                    <p>Effective Date: NOV 23</p>
+                
+                    <p>Thank you for using Casa. To ensure a safe and respectful environment for all users, we have established the following content policy. By accessing or using our website, you agree to comply with these guidelines. We reserve the right to enforce these rules and take appropriate action, including but not limited to content removal and account suspension, for violations of this policy.</p>
+                    <br><br>
+                    {% for i,j in content %}
+                    <h2>{{ i }}</h2>
+                
+                    <p>{{ j }}</p>
+                    <br><br>
+                    {% endfor %}
+                    <p>Thank you for your cooperation in creating a positive and respectful community on Casa.</p>
+                
+                </div>
+
+            </div><!-- End .container -->
+        </div><!-- End .dashboard -->
+    </div><!-- End .page-content -->
+</main><!-- End .main -->
+
+{% endblock %}

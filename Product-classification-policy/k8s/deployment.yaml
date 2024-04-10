@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: policy_model
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: policy_model
+  template:
+    metadata:
+      labels:
+        app: policy_model
+    spec:
+      containers:
+        - name: policy_model
+          image: yoness/policy_model
+          ports:
+            - containerPort: 1111

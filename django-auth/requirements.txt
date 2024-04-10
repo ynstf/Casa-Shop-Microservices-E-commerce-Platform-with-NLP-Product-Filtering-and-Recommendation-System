@@ -1,0 +1,12 @@
+django>=3.2,<4.0
+gunicorn
+requests
+PyJWT
+django-cors-headers
+djangorestframework
+mysqlclient
+django-dotenv
+psycopg2-binary
+django-storages
+boto3
+Pillow

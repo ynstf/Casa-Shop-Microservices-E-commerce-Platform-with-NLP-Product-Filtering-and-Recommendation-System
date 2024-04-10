@@ -1,0 +1,13 @@
+django>=3.2,<4.0
+gunicorn
+requests
+django-dotenv
+psycopg2-binary
+django-storages
+boto3
+Pillow
+django-widget-tweaks
+mysqlclient
+WhiteNoise
+django-cloudinary-storage
+django-extensions
